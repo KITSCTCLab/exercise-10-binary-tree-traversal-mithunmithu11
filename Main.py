@@ -32,7 +32,7 @@ def insert(root, new_value) -> BinaryTreeNode:
             if root.right_child is None:
                 new_node = BinaryTreeNode(new_value)
                 root.right_child = new_node
-            else
+            else;
                 insert(root.right_child,new_value)
 
 def inorder(root) -> None:
